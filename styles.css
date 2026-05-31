@@ -1,0 +1,573 @@
+/* Color Palette Themes*/
+:root {
+    /* Default: Light Academia Palette */
+    --bg-body: #eadecc;
+    --bg-page: #fbf9f3;
+    --bg-header: linear-gradient(135deg, #efe6d9 0%, #dfd3c3 100%);
+    --text-header: #4a3b2c;
+    --border-header: #6b5436;
+    --bg-box: #ffffff;
+    --border-box: #d4cbc0;
+    --bg-notes-events: #f5eedf;
+    --border-weekday: #5c4a37;
+    --text-weekday: #5c4a37;
+    --bg-empty: #f1ebd9;
+    --border-holiday: #ff6b6b;
+    --text-holiday: #e63946;
+    --text-labels: #8b6f47;
+    --text-main: #000000;
+    --border-dashed: #5c4a37;
+}
+
+
+/* Warm Autumn Glow */
+[data-theme="warm-autumn"] {
+    --bg-body: #f4f0ea;
+    --bg-page: #ffffff;
+    --bg-header: linear-gradient(135deg, #0e2a36 0%, #1a3d4c 100%);
+    --text-header: #ffffff;
+    --border-header: #d35400;
+    --bg-box: #ffffff;
+    --border-box: #e6ccb2;
+    --bg-notes-events: #fceade;
+    --border-weekday: #d35400;
+    --text-weekday: #0e2a36;
+    --bg-empty: #f7ede2;
+    --border-holiday: #c0392b;
+    --text-holiday: #c0392b;
+    --text-labels: #d35400;
+    --text-main: #0e2a36;
+    --border-dashed: #d35400;
+}
+
+/* Earthy Forest Hues */
+[data-theme="earthy-forest"] {
+    --bg-body: #eef1ed;
+    --bg-page: #ffffff;
+    --bg-header: linear-gradient(135deg, #7d8471 0%, #606c5a 100%);
+    --text-header: #ffffff;
+    --border-header: #354f3b;
+    --bg-box: #ffffff;
+    --border-box: #ccd5ae;
+    --bg-notes-events: #faedcd;
+    --border-weekday: #354f3b;
+    --text-weekday: #354f3b;
+    --bg-empty: #e9edc9;
+    --border-holiday: #e07a5f;
+    --text-holiday: #e07a5f;
+    --text-labels: #354f3b;
+    --text-main: #354f3b;
+    --border-dashed: #354f3b;
+}
+
+/* Ocean Blue Serenity */
+[data-theme="ocean-serenity"] {
+    --bg-body: #eef5f6;
+    --bg-page: #ffffff;
+    --bg-header: linear-gradient(135deg, #ff9a8b 0%, #ff6a88 100%);
+    --text-header: #ffffff;
+    --border-header: #778da9;
+    --bg-box: #ffffff;
+    --border-box: #b0c4de;
+    --bg-notes-events: #e0f2f1;
+    --border-weekday: #778da9;
+    --text-weekday: #415a77;
+    --bg-empty: #e3fafc;
+    --border-holiday: #ff6b6b;
+    --text-holiday: #e63946;
+    --text-labels: #415a77;
+    --text-main: #415a77;
+    --border-dashed: #778da9;
+}
+
+/* Purple Dream (Classic) */
+[data-theme="purple-dream-v1"] {
+    --bg-body: #f3e5f5;
+    --bg-page: #ffffff;
+    --bg-header: linear-gradient(135deg, #2a1b3d 0%, #44318d 100%);
+    --text-header: #ffffff;
+    --border-header: #8265a7;
+    --bg-box: #ffffff;
+    --border-box: #d6cadd;
+    --bg-notes-events: #ebdcf0;
+    --border-weekday: #44318d;
+    --text-weekday: #2a1b3d;
+    --bg-empty: #eeddf3;
+    --border-holiday: #e06666;
+    --text-holiday: #cc0000;
+    --text-labels: #44318d;
+    --text-main: #2a1b3d;
+    --border-dashed: #8265a7;
+}
+
+/* Pastel Rainbow */
+[data-theme="pastel-rainbow"] {
+    --bg-body: #e3fafc;
+    --bg-page: #ffffff;
+    --bg-header: linear-gradient(135deg, #7ad7f0 0%, #ff8da1 100%);
+    --text-header: #ffffff;
+    --border-header: #ffb3ba;
+    --bg-box: #ffffff;
+    --border-box: #ffdfba;
+    --bg-notes-events: #ffffba;
+    --border-weekday: #bffcc6;
+    --text-weekday: #4a4a4a;
+    --bg-empty: #f0fff4;
+    --border-holiday: #ff6b6b;
+    --text-holiday: #ff6b6b;
+    --text-labels: #4a4a4a;
+    --text-main: #4a4a4a;
+    --border-dashed: #ffb3ba;
+}
+
+/* Midnight Sky */
+[data-theme="midnight-sky"] {
+    --bg-body: #0b132b;
+    --bg-page: #ffffff;
+    --bg-header: linear-gradient(135deg, #002244 0%, #004b87 100%);
+    --text-header: #ffffff;
+    --border-header: #ffcc00;
+    --bg-box: #ffffff;
+    --border-box: #004b87;
+    --bg-notes-events: #f0f4f8;
+    --border-weekday: #002244;
+    --text-weekday: #002244;
+    --bg-empty: #e6eeec;
+    --border-holiday: #e63946;
+    --text-holiday: #e63946;
+    --text-labels: #004b87;
+    --text-main: #002244;
+    --border-dashed: #004b87;
+}
+
+/* Sunset Gradient */
+[data-theme="sunset-gradient"] {
+    --bg-body: #fff3e0;
+    --bg-page: #ffffff;
+    --bg-header: linear-gradient(135deg, #ff7300 0%, #ffb700 100%);
+    --text-header: #ffffff;
+    --border-header: #ff5100;
+    --bg-box: #ffffff;
+    --border-box: #ffe0b2;
+    --bg-notes-events: #fff8e1;
+    --border-weekday: #ff7300;
+    --text-weekday: #e65100;
+    --bg-empty: #fffde7;
+    --border-holiday: #d00000;
+    --text-holiday: #d00000;
+    --text-labels: #e65100;
+    --text-main: #e65100;
+    --border-dashed: #ff7300;
+}
+
+/* Purple Cascade */
+[data-theme="purple-cascade"] {
+    --bg-body: #f3e5f5;
+    --bg-page: #ffffff;
+    --bg-header: linear-gradient(135deg, #1a0933 0%, #4a2840 100%);
+    --text-header: #ffffff;
+    --border-header: #b39ddb;
+    --bg-box: #ffffff;
+    --border-box: #d1c4e9;
+    --bg-notes-events: #f8bbd0;
+    --border-weekday: #4a2840;
+    --text-weekday: #1a0933;
+    --bg-empty: #f3e5f5;
+    --border-holiday: #e91e63;
+    --text-holiday: #e91e63;
+    --text-labels: #4a2840;
+    --text-main: #1a0933;
+    --border-dashed: #b39ddb;
+}
+
+/* Vintage Coral Scheme */
+[data-theme="vintage-coral"] {
+    --bg-body: #f7ede2;
+    --bg-page: #ffffff;
+    --bg-header: linear-gradient(135deg, #f8ad9d 0%, #457b9d 100%);
+    --text-header: #ffffff;
+    --border-header: #f4978e;
+    --bg-box: #ffffff;
+    --border-box: #ffb5a7;
+    --bg-notes-events: #fcd5ce;
+    --border-weekday: #457b9d;
+    --text-weekday: #1d3557;
+    --bg-empty: #f8f9fa;
+    --border-holiday: #e63946;
+    --text-holiday: #e63946;
+    --text-labels: #457b9d;
+    --text-main: #1d3557;
+    --border-dashed: #f4978e;
+}
+
+/* Summer Delight */
+[data-theme="summer-delight"] {
+    --bg-body: #fdf6e2;
+    --bg-page: #ffffff;
+    --bg-header: linear-gradient(135deg, #b53d36 0%, #3a6061 100%);
+    --text-header: #fdf6e2;
+    --border-header: #2d312e;
+    --bg-box: #ffffff;
+    --border-box: #d5cbba;
+    --bg-notes-events: #fcf6bd;
+    --border-weekday: #3a6061;
+    --text-weekday: #2d312e;
+    --bg-empty: #e9edc9;
+    --border-holiday: #b53d36;
+    --text-holiday: #b53d36;
+    --text-labels: #3a6061;
+    --text-main: #2d312e;
+    --border-dashed: #3a6061;
+}
+
+/* Black & White Monochrome Print Theme */
+[data-theme="monochrome-print"] {
+    --bg-body: #ffffff;
+    --bg-page: #ffffff;
+    --bg-header: #ffffff;
+    --text-header: #000000;
+    --border-header: #000000;
+    --bg-box: #ffffff;
+    --border-box: #111111;
+    --bg-notes-events: #ffffff;
+    --border-weekday: #000000;
+    --text-weekday: #000000;
+    --bg-empty: #ffffff;
+    --border-holiday: #000000;
+    --text-holiday: #000000;
+    --text-labels: #000000;
+    --text-main: #000000;
+    --border-dashed: #000000;
+}
+
+/* Holiday boxes for Black and White */
+/* !important overrides all other design choices, done here to override the red color of holiday boxes in other themes */
+[data-theme="monochrome-print"] .date-box[data-holiday="true"] {
+    border-width: 4px !important;
+    outline: 2px solid #000000;
+    outline-offset: -6px;
+}
+[data-theme="monochrome-print"] .date-box[data-holiday="true"] .date-number {
+    font-weight: 900 !important;
+    text-decoration: underline;
+}
+
+/* Theme Panel Selector Element */
+.theme-control-panel {
+    background: #ffffff;
+    padding: 12px 24px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: system-ui, sans-serif;
+    font-size: 14px;
+}
+.theme-control-panel select {
+    padding: 6px 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: var(--bg-body);
+    padding: 20px;
+}
+
+.calendars-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+/* Calendar Container */
+.calendar-page {
+    width: 297mm;
+    height: 420mm;
+    background: var(--bg-page);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    page-break-after: always;
+    overflow: hidden;
+}
+
+/* Space element block for physical hole punching if needed while printing */
+.calendar-punch-spacer {
+    display: block;
+    width: 100%;
+    height: 12mm;       
+    flex-shrink: 0;      
+    background: transparent;
+}
+
+.calendar-header {
+    background: var(--bg-header);
+    color: var(--text-header);
+    padding: 15px 20px;
+    display: flex;
+    gap: 25px; 
+    align-items: stretch;
+    border-bottom: 4px solid var(--border-header);
+    flex-shrink: 0;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.month-title {
+    font-size: 38px; 
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+}
+
+.english-months {
+    font-size: 13px;
+    opacity: 0.95;
+    letter-spacing: 0.5px;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+    min-height: 0;
+}
+
+.extra-label {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.extra-box {
+    background: var(--bg-box);
+    border: 2px solid var(--border-box);
+    border-radius: 2px;
+    flex: 1;
+    min-height: 0;
+    margin-bottom: 2px; 
+}
+
+.monthly-notes {
+    background: var(--bg-notes-events);
+    border-bottom: 2px solid var(--bg-page);
+    padding: 12px 20px;
+    flex: 0 0 50mm;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.notes-label {
+    font-size: 12px; 
+    color: var(--text-labels);
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.notes-area {
+    flex: 1;
+    border: 1px dashed var(--border-dashed);
+    background: var(--bg-box);
+    padding: 10px;
+    border-radius: 2px;
+}
+
+/* Calendar Body */
+.calendar-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    overflow: hidden;
+    min-height: 0;
+}
+
+/* Weekdays */
+.weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+}
+
+.weekday {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--text-weekday);
+    padding: 10px 0; 
+    border-bottom: 2px solid var(--border-weekday);
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+}
+
+.dates-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+    flex: 1;
+    min-height: 0;
+}
+
+.date-box {
+    background: var(--bg-box);
+    border: 2px solid var(--border-box);
+    border-radius: 4px;
+    padding: 8px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    overflow: hidden;
+}
+
+.date-box.empty {
+    background: var(--bg-empty);
+    opacity: 0.5;
+    cursor: default;
+    border: 2px solid var(--bg-page);
+}
+
+.date-box[data-holiday="true"] {
+    background: var(--bg-box);
+    border-color: var(--border-holiday);
+}
+
+.date-box[data-holiday="true"] .date-number {
+    color: var(--text-holiday);
+    font-weight: bold;
+}
+
+.date-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.date-number {
+    font-size: 21px;
+    font-weight: bold;
+    color: var(--text-main);
+    font-family: 'Courier New', monospace;
+}
+
+.nepali-date {
+    font-size: 15px; 
+    color: var(--text-main);
+    font-weight: 500;
+}
+
+.english-date {
+    font-size: 13px;
+    color: var(--text-main);
+    position: absolute;
+    bottom: 6px; 
+    right: 8px;
+    opacity: 0.75;
+}
+
+.date-space {
+    flex: 1;
+    min-height: 15px;
+}
+
+/* Events Section */
+.events-section {
+    background: var(--bg-notes-events);
+    border-top: 2px solid var(--border-weekday);
+    padding: 10px 15px;
+    flex: 0 0 35mm;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex-shrink: 0;
+}
+
+.events-label {
+    font-size: 11px; 
+    color: var(--text-main);
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.events-area {
+    flex: 1;
+    border: 1px dashed var(--border-dashed);
+    background: var(--bg-box);
+    padding: 8px;
+    border-radius: 2px;
+    min-height: 0;
+}
+
+/* Print Styles */
+@media print {
+    .theme-control-panel {
+        display: none !important;
+    }
+    body {
+        padding: 0;
+        background: white;
+    }
+    .calendar-page {
+        margin: 0;
+        box-shadow: none;
+        page-break-after: always;
+    }
+}
+
+/* To make the page be webpage be printed in A3 format when coverting to pdf */
+@page {
+    size: A3 portrait;
+    margin: 0;
+}
+
+@media print {
+    body {
+        padding: 0;
+        background: white;
+    }
+
+    .calendar-page {
+        margin: 0;
+        box-shadow: none;
+        page-break-after: always;
+    }
+    
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+}
